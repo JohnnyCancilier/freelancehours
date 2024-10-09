@@ -31,11 +31,9 @@
             </div>
         </div>
     </div>
-
     <div class="py-4 description">
         {!! $project->description !!}
     </div>
-
     <div class="py-4 space-y-4">
         <div class="uppercase font-bold text-[#8C8C9A] text-[12px]">Tecnologias</div>
         <div class="flex gap-[8px] items-center pb-2">
@@ -44,14 +42,12 @@
             @endforeach
         </div>
     </div>
-
     <div class="pt-4 space-y-4">
         <div class="uppercase font-bold text-[#8C8C9A] text-[12px]">Publicado Por</div>
         <div class="flex gap-[8px] items-center">
             <div>
                 <x-ui.avatar src="{{ $project->author->avatar }}" />
             </div>
-
             <div>
                 <div class="text-white text-[14px] font-bold tracking-wide">
                     {{ $project->author->name }}
